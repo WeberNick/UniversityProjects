@@ -1,0 +1,12 @@
+
+<!ELEMENT buch (autor, titel, kategorien?)>
+<!ATTLIST buch 
+          id ID #REQUIRED
+          status CDATA #IMPLIED>
+
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT titel (#PCDATA)>
+<!ELEMENT kategorien (kategorie+)>
+<!ELEMENT kategorie (#PCDATA)>
+
+
