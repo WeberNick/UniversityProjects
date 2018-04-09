@@ -1,2 +1,2 @@
 # UniversityProjects
-Some University projects
+Repo for some small university projects and assignments
